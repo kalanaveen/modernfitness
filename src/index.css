@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* reusable css variables  */
+:root{
+    --primary-hue:210;
+    --grau-hue:240;
+    --color-primary:hsl(var(--primary-hue),100%,50%);
+    --color-primary-variant:hsl(var(--primary-hue),100%,65%);
+    --color-secondary:#ffb116;
+    --color-gray-100:hsl(var(--grau-hue),47%,94%);
+    --color-gray-200:hsl(var(--grau-hue),26%,75%);
+    --color-gray-300:hsl(var(--grau-hue),24%,64%);
+    --color-gray-400:hsl(var(--grau-hue),16%,41%);
+    --color-gray-500:hsl(var(--grau-hue),44%,25%);
+    --color-gray-600:hsl(var(--grau-hue),48%,15%);
+
+    --container-width-lg:80%;
+    --container-width-md:90%;
+
+    --transition:all 500ms ease;
+}
+
+/* general styles  */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:var(--color-gray-200);
+}

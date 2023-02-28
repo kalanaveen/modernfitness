@@ -2,11 +2,13 @@ import './navbar.css';
 import Logo from '../../images/logo.png';
 import { Link, NavLink } from 'react-router-dom';
 import { links } from '../../data';
+import { GoThreeBars } from 'react-icons/go';
 
 const Navbar = () => {
   return (
     <nav>
       <div className="container nav__container">
+        
         {/* logo */}
         <Link to="/" className="logo">
           <img src={Logo} alt="logo" />
@@ -24,6 +26,10 @@ const Navbar = () => {
         </ul>
 
         {/* nav buttons */}
+        <button>
+          <GoThreeBars />
+        </button>
+
       </div>
     </nav>
   );
