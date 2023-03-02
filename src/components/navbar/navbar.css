@@ -68,6 +68,7 @@ nav{
         flex-direction: column;
         right: 0;
         gap: 0;
+        perspective: 400px;
     }
     .active-nav,.active-nav::after{
         display: none;
