@@ -1,10 +1,17 @@
-import React from 'react'
+import { FaCrown } from 'react-icons/fa';
+import { programs } from '../../data';
+import SectionHead from '../sectionhead/SectionHead';
 
 const Programs = () => {
   return (
-    <div>
-      
-    </div>
+    <section className="programs">
+       <div className="container programs__container">
+         <SectionHead icon={<FaCrown/>} title='Programs' className='programs__head'/>
+      </div>
+      <div className='programs__wrapper'>
+        {programs}
+      </div>
+    </section>
   )
 }
 
