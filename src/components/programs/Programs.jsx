@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { programs } from '../../data';
 import Card from '../../ui/Card';
 import SectionHead from '../sectionhead/SectionHead';
+import './programs.css';
 
 const Programs = () => {
   return (
@@ -14,7 +15,6 @@ const Programs = () => {
           title="Programs"
           className="programs__head"
         />
-      </div>
       <div className="programs__wrapper">
         {programs.map(({ id, icon, title, info, path }) => {
           return (
@@ -26,7 +26,8 @@ const Programs = () => {
             </Card>
           )
         })}
-      </div>
+        </div>
+        </div>
     </section>
   );
 };

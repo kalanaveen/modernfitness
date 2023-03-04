@@ -1,4 +1,4 @@
-
+import './card.css';
 
 const Card = ({className,children}) => {
   return (
