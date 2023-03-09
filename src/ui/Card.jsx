@@ -8,4 +8,4 @@ const Card = ({className,children}) => {
   )
 }
 
-export default Card
+export default Card;

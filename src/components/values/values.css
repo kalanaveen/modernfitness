@@ -1,0 +1,19 @@
+.values__container{
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap:12%;
+}
+
+/* values left  */
+.values__image{
+    filter:saturate(0.25);
+    transition:var(--transition);
+}
+.values__image:hover{
+    filter: saturate(1);
+}
+
+/* values right  */
+.values__right > p{
+  margin: 1.5rem 0 5rem;
+}
