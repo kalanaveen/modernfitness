@@ -1,4 +1,5 @@
 import FAQs from '../../components/faqs/FAQs';
+import Footer from '../../components/footer/Footer';
 import MainHeader from '../../components/mainheader/MainHeader';
 import Programs from '../../components/programs/Programs';
 import Testimonials from '../../components/testimonials/Testimonials';
@@ -12,7 +13,8 @@ const Home = () => {
       <Programs />
       <Values />
       <FAQs />
-      <Testimonials/>
+      <Testimonials />
+      <Footer/>
     </div>
   )
 }
