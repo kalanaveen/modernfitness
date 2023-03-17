@@ -38,7 +38,7 @@ const About = () => {
 
       <section className="about__vision">
         <div className="container about__vision-container">
-          <div className="vision__section-content">
+          <div className="about__section-content">
             <h1>Our Vision</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta id
