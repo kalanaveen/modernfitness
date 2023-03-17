@@ -1,0 +1,13 @@
+section{
+    margin-bottom: 7rem;
+}
+.about__section-image{
+    border-radius: 50%;
+    overflow: hidden;
+    transform: skew(15deg);
+    transition: var(--transition);
+}
+.about__section-image:nth-child(2)
+.about__section-image:hover{
+    transform: skew(0);
+}
